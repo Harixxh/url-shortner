@@ -38,5 +38,5 @@ module.exports = {
   // CORS
   CORS_ORIGIN: process.env.CORS_ORIGIN
     ? process.env.CORS_ORIGIN.split(',').map((origin) => origin.trim())
-    : ['http://localhost:3000', 'http://localhost:3003']
+    : ['http://localhost:3000', 'http://localhost:3003', 'https://url-shortner-teal-tau.vercel.app']
 };
