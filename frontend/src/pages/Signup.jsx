@@ -56,7 +56,7 @@ export default function Signup() {
           <p className="text-sm uppercase tracking-[0.3em] text-[#4F46E5]">Launch your premium workspace</p>
           <h1 className="mt-6 text-5xl font-bold text-[#1E1B4B] sm:text-6xl">Register with a polished UI</h1>
           <p className="mt-6 max-w-xl text-[#6B7280] leading-8">
-            Join a premium link platform built for high-level hackathons with a crisp, professional dashboard.
+            Join a premium link platform built for scalable businesses with a crisp, professional dashboard.
           </p>
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             <div className="panel bg-[#F8FAFF] border-[#E0E7FF]">

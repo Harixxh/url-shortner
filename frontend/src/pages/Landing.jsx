@@ -15,7 +15,7 @@ export default function Landing() {
             </h1>
           </div>
 
-          <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <button
               onClick={() => navigate('/signup')}
               className="btn-primary"
@@ -40,12 +40,12 @@ export default function Landing() {
             transition={{ duration: 0.5 }}
             className="rounded-[2rem] border border-[#E0E7FF] bg-white p-8 shadow-[0_32px_120px_-70px_rgba(148,163,184,0.16)]"
           >
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#4F46E5]">Hackathon-grade platform</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#4F46E5]">Enterprise-grade platform</p>
             <h2 className="mt-4 text-5xl font-bold tracking-tight text-[#1E1B4B] sm:text-6xl">
               Build faster, launch smarter, and ship beautiful links.
             </h2>
             <p className="mt-6 max-w-2xl text-[#6B7280] leading-8">
-              High-performance URL management designed for demo-ready projects, rapid prototyping, and polished hackathon presentations.
+              High-performance URL management designed for scalable projects, rapid prototyping, and polished business presentations.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <span className="badge badge-success">Fast setup</span>
@@ -56,14 +56,14 @@ export default function Landing() {
 
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="panel">
-              <p className="text-sm uppercase tracking-[0.28em] text-[#6B7280]">Designed for Windows</p>
+              <p className="text-sm uppercase tracking-[0.28em] text-[#6B7280]">Responsive Design</p>
               <p className="mt-2 text-3xl font-semibold text-[#1E1B4B]">High clarity</p>
-              <p className="text-sm text-[#6B7280] mt-2">Optimized contrast and responsive layouts for smaller windows.</p>
+              <p className="text-sm text-[#6B7280] mt-2">Optimized contrast and responsive layouts for all screen sizes.</p>
             </div>
             <div className="panel">
-              <p className="text-sm uppercase tracking-[0.28em] text-[#6B7280]">Hackathon quality</p>
-              <p className="mt-2 text-3xl font-semibold text-[#1E1B4B]">Production-ready UI</p>
-              <p className="text-sm text-[#6B7280] mt-2">A polished theme built to impress judges and stakeholders.</p>
+              <p className="text-sm uppercase tracking-[0.28em] text-[#6B7280]">Production ready</p>
+              <p className="mt-2 text-3xl font-semibold text-[#1E1B4B]">Enterprise-grade UI</p>
+              <p className="text-sm text-[#6B7280] mt-2">A polished platform built to scale and impress stakeholders.</p>
             </div>
           </div>
         </section>
