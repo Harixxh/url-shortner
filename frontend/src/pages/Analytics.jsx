@@ -122,14 +122,14 @@ export default function Analytics() {
       <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between mb-10">
         <div>
           <p className="badge-soft">Analytics</p>
-          <h1 className="mt-4 text-5xl font-semibold text-[#1E1B4B]">Link performance</h1>
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#1E1B4B]">Link performance</h1>
           <p className="mt-3 max-w-3xl text-lg text-[#6B7280]">Review deep insights for your short URL, including traffic trends, device behavior, and visitor sources.</p>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-          <button type="button" onClick={() => navigate('/urls')} className="btn-secondary">
+          <button type="button" onClick={() => navigate('/urls')} className="btn-secondary w-full md:w-auto">
             <ArrowLeft size={18} /> Back
           </button>
-          <button type="button" onClick={() => handleCopyUrl(analytics.shortUrl)} className="btn-primary">
+          <button type="button" onClick={() => handleCopyUrl(analytics.shortUrl)} className="btn-primary w-full md:w-auto">
             Copy link
           </button>
         </div>

@@ -37,8 +37,8 @@ export default function Login() {
           <div className="relative space-y-10">
             <div>
               <p className="text-sm uppercase tracking-[0.3em] text-[#4F46E5]">Short.link dashboard</p>
-              <h1 className="mt-4 text-6xl font-bold text-[#1E1B4B] leading-tight">Sign in to manage your URLs</h1>
-              <p className="mt-5 max-w-2xl text-xl text-[#6B7280] leading-9">
+              <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1E1B4B] leading-tight">Sign in to manage your URLs</h1>
+              <p className="mt-5 max-w-2xl text-base sm:text-lg md:text-xl text-[#6B7280] leading-9">
                 Access your link analytics, shorten URLs, and control your workspace from one polished, professional interface.
               </p>
             </div>

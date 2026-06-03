@@ -77,17 +77,17 @@ export default function Dashboard() {
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div>
             <p className="badge-soft">Dashboard</p>
-            <h1 className="mt-4 text-5xl font-semibold text-[#1E1B4B]">Welcome back, {user?.name?.split(' ')[0] || 'there'}.</h1>
+            <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#1E1B4B]">Welcome back, {user?.name?.split(' ')[0] || 'there'}.</h1>
             <p className="mt-4 max-w-3xl text-xl text-[#6B7280] leading-8">
               Your link workspace is ready. Track performance, launch new short URLs, and surface growth insights from one premium hub.
             </p>
           </div>
           <button
-            onClick={() => navigate('/create')}
-            className="btn-primary"
-          >
-            + Create Smart Link
-          </button>
+              onClick={() => navigate('/create')}
+              className="btn-primary w-full sm:w-auto"
+            >
+              + Create Smart Link
+            </button>
         </div>
       </motion.div>
 

@@ -69,13 +69,13 @@ export default function CreateUrl() {
     <div className="container-custom py-10">
       <div className="section-heading pb-6 border-b border-[#E0E7FF] mb-8">
         <p className="badge-soft">Create Link</p>
-        <h1 className="mt-4 text-5xl font-semibold text-[#1E1B4B]">Build a smarter URL experience.</h1>
+        <h1 className="mt-4 text-5xl sm:text-4xl md:text-5xl font-semibold text-[#1E1B4B]">Build a smarter URL experience.</h1>
         <p className="mt-4 max-w-3xl text-xl text-[#6B7280] leading-8">
           Create a branded short link, attach metadata, and preview the live output before sharing.
         </p>
       </div>
 
-      <div className="grid gap-8 xl:grid-cols-[1.2fr_0.8fr]">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
         <form onSubmit={handleSubmit} className="analytics-card space-y-8">
           <div className="flex items-center justify-between gap-4">
             <div>

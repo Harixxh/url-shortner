@@ -10,7 +10,7 @@ export default function Landing() {
         <header className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-[#4F46E5]">Short.link</p>
-            <h1 className="mt-4 text-4xl font-semibold text-[#1E1B4B] sm:text-5xl">
+            <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#1E1B4B]">
               Build premium links with powerful analytics.
             </h1>
           </div>
@@ -18,7 +18,7 @@ export default function Landing() {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <button
               onClick={() => navigate('/signup')}
-              className="btn-primary"
+              className="btn-primary w-full md:w-auto"
             >
               Launch your workspace
             </button>
@@ -32,7 +32,7 @@ export default function Landing() {
         </header>
       </div>
 
-      <main className="container-custom grid gap-10 lg:grid-cols-[1.2fr_0.8fr] items-start py-16">
+      <main className="container-custom grid grid-cols-1 md:grid-cols-2 gap-10 items-start py-16">
         <section className="space-y-8">
           <motion.div
             initial={{ opacity: 0, y: 18 }}
@@ -41,7 +41,7 @@ export default function Landing() {
             className="rounded-[2rem] border border-[#E0E7FF] bg-white p-8 shadow-[0_32px_120px_-70px_rgba(148,163,184,0.16)]"
           >
             <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#4F46E5]">Enterprise-grade platform</p>
-            <h2 className="mt-4 text-5xl font-bold tracking-tight text-[#1E1B4B] sm:text-6xl">
+            <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#1E1B4B] lg:text-6xl">
               Build faster, launch smarter, and ship beautiful links.
             </h2>
             <p className="mt-6 max-w-2xl text-[#6B7280] leading-8">

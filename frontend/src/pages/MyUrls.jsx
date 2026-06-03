@@ -58,7 +58,7 @@ export default function MyUrls() {
       <div className="section-heading pb-6 border-b border-[#E0E7FF] mb-8">
         <div>
           <p className="badge-soft">Your links</p>
-          <h1 className="mt-4 text-5xl font-semibold text-[#1E1B4B]">Manage your URL collection</h1>
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#1E1B4B]">Manage your URL collection</h1>
           <p className="mt-4 max-w-3xl text-lg text-[#6B7280]">Review, copy, and analyze each short link from your custom workspace.</p>
         </div>
         <button onClick={() => navigate('/create')} className="btn-primary">
@@ -67,7 +67,7 @@ export default function MyUrls() {
       </div>
 
       {urls.length > 0 ? (
-        <div className="grid gap-6 xl:grid-cols-2">
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
           {urls.map((url) => (
             <article key={url._id} className="link-card">
               <div className="flex items-start justify-between gap-4">

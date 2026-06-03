@@ -54,7 +54,7 @@ export default function Signup() {
           className="auth-panel-alt bg-[#EFF6FF] border border-[#E0E7FF]"
         >
           <p className="text-sm uppercase tracking-[0.3em] text-[#4F46E5]">Launch your premium workspace</p>
-          <h1 className="mt-6 text-5xl font-bold text-[#1E1B4B] sm:text-6xl">Register with a polished UI</h1>
+          <h1 className="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1E1B4B]">Register with a polished UI</h1>
           <p className="mt-6 max-w-xl text-[#6B7280] leading-8">
             Join a premium link platform built for scalable businesses with a crisp, professional dashboard.
           </p>
