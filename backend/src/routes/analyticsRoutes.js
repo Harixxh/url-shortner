@@ -9,18 +9,13 @@ const router = express.Router();
  * @desc Get analytics for a URL
  * @access Private
  */
+router.get('/:urlId', auth, analyticsController.getUrlAnalytics);
+
 /**
  * @route GET /api/analytics/dashboard/summary
  * @desc Get dashboard summary
  * @access Private
  */
 router.get('/dashboard/summary', auth, analyticsController.getDashboardSummary);
-
-/**
- * @route GET /api/analytics/:urlId
- * @desc Get analytics for a URL
- * @access Private
- */
-router.get('/:urlId', auth, analyticsController.getUrlAnalytics);
 
 module.exports = router;

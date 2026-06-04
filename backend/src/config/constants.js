@@ -23,7 +23,7 @@ module.exports = {
   // URLs
   FRONTEND_URL: process.env.FRONTEND_URL || 'http://localhost:3000',
   API_URL: process.env.API_URL || 'http://localhost:5000',
-  SHORT_DOMAIN: process.env.SHORT_DOMAIN ||'https://url-shortner-vat6.onrender.com/s',
+  SHORT_DOMAIN: process.env.SHORT_DOMAIN || 'http://localhost:5000/s',
 
   // Rate Limiting
   RATE_LIMIT_WINDOW_MS: parseInt(process.env.RATE_LIMIT_WINDOW_MS || '900000', 10), // 15 min
@@ -38,5 +38,5 @@ module.exports = {
   // CORS
   CORS_ORIGIN: process.env.CORS_ORIGIN
     ? process.env.CORS_ORIGIN.split(',').map((origin) => origin.trim())
-    : ['http://localhost:3000', 'http://localhost:3003', 'https://url-shortner-teal-tau.vercel.app']
+    : ['http://localhost:3000', 'http://localhost:3003']
 };

@@ -15,9 +15,9 @@ Backend:
 https://url-shortner-vat6.onrender.com
 
 Demo Video:
-https://youtube.com/YOUR_VIDEO_LINK
+https://www.loom.com/share/c864b66b7b954984aff6ae506b687006
 
-(Replace with your actual YouTube or Loom link)
+
 
 ---
 
