@@ -374,20 +374,49 @@ GET /api/analytics/dashboard/summary
 
 ```json
 {
-  "_id": "6846f2a1",
+  "_id": {
+    "$oid": "6a1fc28cfd560d737c6f1512"
+  },
   "name": "Harish",
-  "email": "harish@gmail.com"
+  "email": "harishmkr88@gmail.com",
+  "password": "$2a$12$2fo/NAqxSzsPzS.QqMGgG./fZi266jMYMPOFHHQrZfpb6OtxfdstG",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-06-03T05:58:36.259Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T05:58:36.259Z"
+  },
+  "__v": 0
 }
 ```
 
 ## URLs Collection
 
 ```json
+
 {
-  "shortCode": "abc123",
-  "originalUrl": "https://github.com",
-  "clickCount": 25,
-  "customAlias": "github"
+  "userId": {
+    "$oid": "6a1fc28cfd560d737c6f1512"
+  },
+  "originalUrl": "http://110.172.151.102/LMS/index.html",
+  "shortCode": "M4NzLDO",
+  "customAlias": "portal",
+  "clickCount": 4,
+  "isActive": true,
+  "metadata": {
+    "tags": []
+  },
+  "createdAt": {
+    "$date": "2026-06-03T08:10:14.155Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T10:21:53.077Z"
+  },
+  "__v": 0,
+  "lastClickedAt": {
+    "$date": "2026-06-03T10:21:53.076Z"
+  }
 }
 ```
 
@@ -395,11 +424,24 @@ GET /api/analytics/dashboard/summary
 
 ```json
 {
-  "country": "India",
-  "city": "Chennai",
+  "_id": {
+    "$oid": "6a1fe175c0e898123ecdd2f3"
+  },
+  "urlId": {
+    "$oid": "6a1fe166c0e898123ecdd2ed"
+  },
   "browser": "Chrome",
   "device": "Desktop",
-  "visitedAt": "2026-06-03"
+  "os": "Windows",
+  "country": "IN",
+  "city": "Coimbatore",
+  "ipHash": "650834cc6736d670086e4d46ce7d4f2b3fd07e10ac4d7a270037b9396ed2521c",
+  "referrer": null,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+  "visitedAt": {
+    "$date": "2026-06-03T08:10:29.862Z"
+  },
+  "__v": 0
 }
 ```
 
@@ -441,17 +483,23 @@ Add:
 
 docs/dashboard.png
 
+## Create url
+
+Add:
+
+docs/create-url.png
+
+## My url Code
+
+Add:
+
+docs/my-url.png
+
 ## Analytics
 
 Add:
 
-docs/analytics.png
-
-## QR Code
-
-Add:
-
-docs/qr-code.png
+docs/analytics-page
 
 ---
 
